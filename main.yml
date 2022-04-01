@@ -1,0 +1,30 @@
+---
+- name: Main molecule for docker 
+  hosts: all
+  become: true
+
+  vars:
+    
+  handlers:
+
+
+  pre_tasks:
+    - name: Task to simulate systemctl using systemctl3.py
+      block:
+        - name: copy
+          copy: 
+              src: "systemctl3.py" 
+              dest: "/usr/bin/systemctl"
+        - name: file
+          file: name="/run/systemd/system/" state="directory"
+        - name: service
+          service: name="dbus.service" state="stopped"    
+        - name: copy
+          copy: src="systemctl3.py" dest="/usr/bin/systemctl"
+        - name: file
+          file: name="/run/systemd/system/" state="directory"
+        - name: service
+          service: name="dbus.service" state="stopped"
+      
+  # tasks:
+  #   - include: #Include the name of your task or play file here!
