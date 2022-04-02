@@ -15,7 +15,7 @@ To install pyhton on a virtual environment:
     
 2. Install the requirements package on a virtual environment. 
         
-        pip3 install requirements.txt 
+        pip3 install -r requirements.txt 
         
 
         
