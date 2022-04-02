@@ -14,6 +14,7 @@ To install pyhton on a virtual environment:
     ```   
     
 2. Activate virtual environment 
+
     Mac OS / Linux
 
         source mypython/bin/activate
