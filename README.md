@@ -17,11 +17,11 @@ To install pyhton on a virtual environment:
 
     Mac OS / Linux
 
-        source mypython/bin/activate
+        source molecule-venv/bin/activate
 
     Windows
 
-        mypthon\Scripts\activate
+        molecule-venv\Scripts\activate
 
 3. Install the requirements package on a virtual environment. 
         
