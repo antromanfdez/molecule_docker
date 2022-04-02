@@ -13,10 +13,20 @@ To install pyhton on a virtual environment:
     python3 -m venv molecule-venv
     ```   
     
-2. Install the requirements package on a virtual environment. 
+2. Activate virtual environment 
+    Mac OS / Linux
+
+        source mypython/bin/activate
+
+    Windows
+
+        mypthon\Scripts\activate
+
+3. Install the requirements package on a virtual environment. 
         
         pip3 install -r requirements.txt 
-        
+
+
 
         
 Once everything is ready, run:
