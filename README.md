@@ -42,7 +42,7 @@ And then, to log into the environment:
         
     molecule login
         
-3. Possible error:
+**Possible error:**
     
     Problems:
     
