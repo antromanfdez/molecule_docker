@@ -46,7 +46,7 @@ And then, to log into the environment:
     
     Problems:
     
-    ```bash
+    
     ....
     ERROR! couldn't resolve module/action 'community.docker.docker_container'. This often indicates a misspelling, missing collection, or incorrect module path.
     
@@ -60,13 +60,11 @@ And then, to log into the environment:
           ^ here
     ....
     
-    ```
     
-     Solution: 
     
-    ```bash
+ **Solution error:** 
     ansible-galaxy collection install community.docker
-    ```
+    
     
 
 
